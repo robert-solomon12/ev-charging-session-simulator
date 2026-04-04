@@ -1,6 +1,6 @@
 # EV Charging Session Simulator
 
-A Python project that simulates EV charging sessions using battery state of charge, charger power, and electricity cost.
+Python-based EV charging simulation project by **Robert Solomon**.
 
 ## Features
 - Simulates charging from current SOC to target SOC
