@@ -2,6 +2,7 @@
 utils.py
 
 Utility functions for saving charging session results.
+Author: Robert Solomon
 """
 
 import csv

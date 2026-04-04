@@ -2,6 +2,7 @@
 charger.py
 
 Defines the Charger class.
+Author: Robert Solomon
 """
 
 

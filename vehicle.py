@@ -2,6 +2,7 @@
 vehicle.py
 
 Defines the ElectricVehicle class used in the charging simulation.
+Author: Robert Solomon
 """
 
 

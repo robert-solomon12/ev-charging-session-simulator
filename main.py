@@ -2,6 +2,7 @@
 main.py
 
 Entry point for the EV Charging Session Simulator.
+Author: Robert Solomon
 """
 
 from vehicle import ElectricVehicle

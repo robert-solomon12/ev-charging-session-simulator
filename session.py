@@ -2,6 +2,7 @@
 session.py
 
 Contains logic for simulating a charging session.
+Author: Robert Solomon
 """
 
 from dataclasses import dataclass
