@@ -60,8 +60,7 @@ Output example:
 - `data/soc_over_time.png`
 
 Snapshot:
-<img src="data/soc_over_time.png" height="500" width="600">
-
+![SOC Over Time](data/soc_over_time.png)
 
 ## Related Work
 
