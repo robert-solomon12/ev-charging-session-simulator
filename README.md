@@ -60,6 +60,32 @@ Output example:
 Snapshot:
 ![SOC Over Time](data/soc_over_time.png)
 
+
+## How to Run
+
+### 1. Clone the repository and navigate into the project
+```bash
+git clone https://github.com/robert-solomon12/ev-charging-session-simulator.git
+
+cd ev-charging-session-simulator
+```
+
+### 2. Create and activate a virtual environment
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the simulator
+```bash
+python3 main.py
+```
+
+
 ## Version Control
 This project follows a structured versioning approach using Git and GitHub.
 
