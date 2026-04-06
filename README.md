@@ -1,3 +1,5 @@
+![EV Charging Simulator](data/cover.jpeg)
+
 # EV Charging Session Simulator
 
 Python-based EV charging simulation project by **Robert Solomon**.
