@@ -70,7 +70,7 @@ This project is part of my broader interest in EV systems and charging infrastru
   A final year project exploring communication between electric vehicles and charging stations, including Vehicle-to-Grid (V2G) concepts and protocol-level interactions.
 
 
-  ## Future Improvements
+## Future Improvements
 - Add charging power vs time graph
 - Add multiple charger types
 - Add Streamlit dashboard (to further enhance visual analysis and interaction)
