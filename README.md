@@ -8,6 +8,7 @@ Python-based EV charging simulation project by **Robert Solomon**.
 - Estimates charging time
 - Estimates charging cost
 - Logs charging sessions to CSV
+- Supports multiple predefined EV profiles
 
 ## Project Structure
 - `main.py` – entry point for the simulator
@@ -24,6 +25,11 @@ Python-based EV charging simulation project by **Robert Solomon**.
 - Target SOC: 80%
 - Charger: 50 kW DC Fast Charger
 - Price: €0.35 / kWh
+
+## Supported EV Profiles
+- Tesla Model 3 – 60.0 kWh
+- Nissan Leaf – 40.0 kWh
+- BMW i4 – 83.9 kWh
 
 ## Future Improvements
 - Add charging curve logic
