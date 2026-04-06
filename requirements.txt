@@ -1,1 +1,1 @@
-# No external dependencies required for the initial version
+matplotlib>=3.8.0

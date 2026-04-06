@@ -9,13 +9,13 @@ from vehicle import EV_PROFILES, create_vehicle_from_profile
 from charger import Charger
 from session import ChargingSession
 from utils import save_session_to_csv
+from visualization import plot_soc_over_time
 
 
 def main():
     print("=== EV Charging Session Simulator ===")
 
-    # Choose a predefined EV profile
-    selected_profile = "bmw_i4"
+    selected_profile = "tesla_model_3"
     current_soc = 25.0
     target_soc = 80.0
 
@@ -56,6 +56,9 @@ def main():
         result
     )
     print("\nSession saved to data/charging_sessions.csv")
+
+    plot_soc_over_time(result.steps)
+    print("SOC graph saved to data/soc_over_time.png")
 
 
 if __name__ == "__main__":
