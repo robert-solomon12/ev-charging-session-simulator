@@ -43,7 +43,6 @@ This project simulates EV charging sessions using battery state of charge (SOC),
 - Add visual charts for SOC vs time
 
 ## Charging Behaviour
-
 The simulator includes a simplified SOC-based charging model to better reflect real EV charging behaviour:
 
 - 0%–50% SOC → 100% charger power
@@ -53,7 +52,6 @@ The simulator includes a simplified SOC-based charging model to better reflect r
 This models the idea that EV charging typically slows as the battery approaches a higher state of charge.
 
 ## Visualization
-
 The simulator generates a graph showing battery state of charge (SOC) over time for each charging session.
 
 Output example:
@@ -62,8 +60,20 @@ Output example:
 Snapshot:
 ![SOC Over Time](data/soc_over_time.png)
 
-## Related Work
+## Version Control
+This project follows a structured versioning approach using Git and GitHub.
 
+Stable versions of the project are tracked using tags:
+
+- **v1.0-initial** – Initial implementation of the EV charging simulator
+- **v1.1-multiple-profiles** – Added support for multiple EV vehicle profiles
+- **v1.2-visualization** – Introduced SOC-based charging behaviour and session visualization
+
+👉 You can view all tagged versions and releases [here](
+https://github.com/robert-solomon12/ev-charging-session-simulator/releases)
+
+
+## Related Work
 This project is part of my broader interest in EV systems and charging infrastructure:
 
 - [EV Charging Protocol Implementation (FYP)](https://github.com/robert-solomon12/FYP-Electric-Vehicle-Charging-Protocol-Implementation)  
