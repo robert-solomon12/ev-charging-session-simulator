@@ -38,12 +38,6 @@ This project simulates EV charging sessions using battery state of charge (SOC),
 - Nissan Leaf – 40.0 kWh
 - BMW i4 – 83.9 kWh
 
-## Future Improvements
-- Add charging curve logic
-- Add multiple EV profiles
-- Add Streamlit dashboard
-- Add visual charts for SOC vs time
-
 ## Charging Behaviour
 The simulator includes a simplified SOC-based charging model to better reflect real EV charging behaviour:
 
